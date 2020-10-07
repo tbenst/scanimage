@@ -1,0 +1,7 @@
+classdef MP285 < scanimage.components.motors.motorRegistryEntries.MotorRegistryEntry
+    properties
+        displayName = 'Sutter MP285';
+        aliases     = {'MP285','sutter.MP285'};
+        className   = 'dabs.sutter.MP285_Async';
+    end
+end
